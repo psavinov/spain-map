@@ -5,7 +5,7 @@ Using this component you can integrate interactive, colorful and localisable map
 Spain into your project. Component is strying to use user's navigator language for the
 localization purposes, default language is Spanish.
 
-See demo [here](http://psavinov.github.io/spain-map).
+See demo [here](https://psavinov.github.io/spain-map).
 
 ## Basic SpainMap usage example
 ```html
