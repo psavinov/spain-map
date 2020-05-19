@@ -12,7 +12,7 @@ See demo [here](https://psavinov.github.io/spain-map).
 <html>
     <head>
         <meta charset="utf-8">
-        <script src="spain-map-min.js"></script>
+        <script src="spain-map.js"></script>
     </head>
     <body>
         <div id="mapTarget"></div>
@@ -78,7 +78,7 @@ Plugin allow to define custom behavior for *click*, *hover*, and *render* events
 <html>
     <head>
         <meta charset="utf-8">
-        <script src="spain-map-min.js"></script>
+        <script src="spain-map.js"></script>
     </head>
     <body>
         <div id="mapTarget"></div>
