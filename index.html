@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SpainMap component demo</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="spain-map.js"></script>
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col-6 p-5">
+                <div id="mapTarget"></div>
+            </div>
+            <div class="col-6 p-5">
+                <div class="row mb-4" style="border-bottom: 1px solid navy; width: 500px;">
+                    <h2>SpainMap component demo</h2>
+                </div>
+                <div class="row">
+                    <b>Last hovered:</b> <span id="lastHovered" class="pl-2 text-info"></span>
+                </div>
+                <div class="row">
+                    <b>Last clicked:</b> <span id="lastClicked" class="pl-2 text-info"></span></b>
+                </div>
+                <div class="row">
+                    <button onclick="colorizeProvincesRandomly()" class="btn btn-lg btn-primary mt-3" style="width:300px">Colorize provinces randomly</button>
+                </div>
+                <div class="row">
+                    <button onclick="activateFlashOnClick()" class="btn btn-lg btn-warning mt-3" style="width:300px">Activate flash on click</button>
+                </div>
+                <div class="row pt-3">
+                    <label for="scale"><b>Scale</b>
+                    <input 
+                        class="form-control" id="scale" max="1.2" min="0.1"
+                        onchange="changeScale()" step="0.05" style="width: 65px" 
+                        type="number" value="1" 
+                    > 
+                </label>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        var map = new SpainMap(
+            '#mapTarget',
+            'es'
+        );
+
+        map.render();
+
+        var demoPlugin = new SpainMapPlugin(
+            'demo',
+            {
+                click: function(event) {
+                    this.setProvinceColor(
+                        event.province.id, 
+                        `rgb(${Math.random()*255},${Math.random()*255},${Math.random()*255})`
+                    );
+
+                    document.getElementById('lastClicked').innerText = event.province.name[this.getLanguage()];
+                },
+                hover: function(event) {
+                    this.highlightProvinceById(
+                        event.province.id, 
+                        `rgb(${Math.random()*255},${Math.random()*255},${Math.random()*255})`
+                    );
+
+                    document.getElementById('lastHovered').innerText = event.province.name[this.getLanguage()];
+                }
+            }
+        );
+
+        map.plugin(demoPlugin);
+
+        var colorizeProvincesRandomly = function() {
+            map.getAllProvinces().forEach(province => {
+                map.setProvinceColor(province.id, `rgb(${Math.random()*255},${Math.random()*255},${Math.random()*255})`);
+            });
+        };
+
+        var activateFlashOnClick = function() {
+            var flash = (node, cycle) => setTimeout(() => {
+                node.style.opacity = cycle % 2 === 0 ? 0.25 : 1;
+
+                if (cycle < 3) {
+                    flash(node, cycle+1);
+                }
+            }, 200);
+
+            var flashPlugin = new SpainMapPlugin(
+                'flash',
+                {
+                    click: function(event) {
+                        flash(event.originalEvent.target, 0);
+                    }
+                }
+            );
+
+            map.plugin(flashPlugin);
+        };
+
+        var changeScale = function() {
+            var scale = document.getElementById('scale').value;
+
+            map.setScale(scale);
+        };
+    </script>
+</html>
