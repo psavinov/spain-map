@@ -7,11 +7,11 @@
     </head>
 
     <body>
-        <div class="row">
-            <div class="col-6 p-5">
+        <div class="row mt-5 ml-3">
+            <div class="col-7 p-5">
                 <div id="mapTarget"></div>
             </div>
-            <div class="col-6 p-5">
+            <div class="col-5 p-5">
                 <div class="row mb-4" style="border-bottom: 1px solid navy; width: 500px;">
                     <h2>SpainMap component demo</h2>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="row pt-3">
                     <label for="scale"><b>Scale</b>
                         <input 
-                            class="form-control" id="scale" max="1.2" min="0.1"
+                            class="form-control" id="scale" max="1.2" min="0.8"
                             onchange="changeScale()" step="0.05" style="width: 65px" 
                             type="number" value="1" 
                         > 
@@ -45,8 +45,7 @@
 
     <script>
         var map = new SpainMap(
-            '#mapTarget',
-            'es'
+            '#mapTarget'
         );
 
         map.render();
