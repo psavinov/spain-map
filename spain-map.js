@@ -10,54 +10,72 @@ var COMMUNITIES = [
 	{
 		"id": "001",
 		"name": {
-			"es": "Andalucia"
+			"es": "Andalucia",
+			"en": "Andalusia",
+			"ru": "Андалусия"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Almería"
+					"es": "Almería",
+					"en": "Almería",
+					"ru": "Альмерия"
 				},
 				"id": "001-001"
 			},
 			{
 				"name": {
-					"es": "Cádiz"
+					"es": "Cádiz",
+					"en": "Cádiz",
+					"ru": "Кадис"
 				},
 				"id": "001-002"
 			},
 			{
 				"name": {
-					"es": "Córdoba"
+					"es": "Córdoba",
+					"en": "Córdoba",
+					"ru": "Кордоба"
 				},
 				"id": "001-003"
 			},
 			{
 				"name": {
-					"es": "Granada"
+					"es": "Granada",
+					"en": "Granada",
+					"ru": "Гранада"
 				},
 				"id": "001-004"
 			},
 			{
 				"name": {
-					"es": "Huelva"
+					"es": "Huelva",
+					"en": "Huelva",
+					"ru": "Уэльва"
 				},
 				"id": "001-005"
 			},
 			{
 				"name": {
-					"es": "Jaén"
+					"es": "Jaén",
+					"en": "Jaén",
+					"ru": "Хаен"
 				},
 				"id": "001-006"
 			},
 			{
 				"name": {
-					"es": "Málaga"
+					"es": "Málaga",
+					"en": "Málaga",
+					"ru": "Малага"
 				},
 				"id": "001-007"
 			},
 			{
 				"name": {
-					"es": "Sevilla"
+					"es": "Sevilla",
+					"en": "Seville",
+					"ru": "Севилья"
 				},
 				"id": "001-008"
 			}
@@ -66,24 +84,32 @@ var COMMUNITIES = [
 	{
 		"id": "002",
 		"name": {
-			"es": "Aragón"
+			"es": "Aragón",
+			"en": "Aragon",
+			"ru": "Арагон"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Huesca"
+					"es": "Huesca",
+					"en": "Huesca",
+					"ru": "Уэска"
 				},
 				"id": "002-001"
 			},
 			{
 				"name": {
-					"es": "Teruel"
+					"es": "Teruel",
+					"en": "Teruel",
+					"ru": "Теруэль"
 				},
 				"id": "002-002"
 			},
 			{
 				"name": {
-					"es": "Zaragoza"
+					"es": "Zaragoza",
+					"en": "Saragossa",
+					"ru": "Сарагоса"
 				},
 				"id": "002-003"
 			}
@@ -92,12 +118,16 @@ var COMMUNITIES = [
 	{
 		"id": "003",
 		"name": {
-			"es": "Principado de Asturias"
+			"es": "Principado de Asturias",
+			"en": "Asturias",
+			"ru": "Астурия"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Asturias"
+					"es": "Asturias",
+					"en": "Asturias",
+					"ru": "Астурия"
 				},
 				"id": "003-001"
 			}
@@ -106,12 +136,16 @@ var COMMUNITIES = [
 	{
 		"id": "004",
 		"name": {
-			"es": "Islas Baleares"
+			"es": "Islas Baleares",
+			"en": "Balearic Islands",
+			"ru": "Балеарские острова"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Baleares"
+					"es": "Baleares",
+					"en": "Balearic Islands",
+					"ru": "Балеарские острова"
 				},
 				"id": "004-001"
 			}
@@ -120,18 +154,24 @@ var COMMUNITIES = [
 	{
 		"id": "005",
 		"name": {
-			"es": "Canarias"
+			"es": "Canarias",
+			"en": "Canary Islands",
+			"ru": "Канарские острова"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Las Palmas"
+					"es": "Las Palmas",
+					"en": "Las Palmas",
+					"ru": "Лас Пальмас"
 				},
 				"id": "005-001"
 			},
 			{
 				"name": {
-					"es": "Santa Cruz de Tenerife"
+					"es": "Santa Cruz de Tenerife",
+					"en": "Santa Cruz de Tenerife",
+					"ru": "Санта Круз де Тенерифе"
 				},
 				"id": "005-002"
 			}
@@ -140,12 +180,16 @@ var COMMUNITIES = [
 	{
 		"id": "006",
 		"name": {
-			"es": "Cantabria"
+			"es": "Cantabria",
+			"en": "Cantabria",
+			"ru": "Кантабрия"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Cantabria"
+					"es": "Cantabria",
+					"en": "Cantabria",
+					"ru": "Кантабрия"
 				},
 				"id": "006-001"
 			}
@@ -154,36 +198,48 @@ var COMMUNITIES = [
 	{
 		"id": "007",
 		"name": {
-			"es": "Castilla-La Mancha"
+			"es": "Castilla-La Mancha",
+			"en": "Castilla-La Mancha",
+			"ru": "Кастилья-Ла Манча"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Albacete"
+					"es": "Albacete",
+					"en": "Albacete",
+					"ru": "Альбасете"
 				},
 				"id": "007-001"
 			},
 			{
 				"name": {
-					"es": "Ciudad Real"
+					"es": "Ciudad Real",
+					"en": "Ciudad Real",
+					"ru": "Сьюдад Реаль"
 				},
 				"id": "007-002"
 			},
 			{
 				"name": {
-					"es": "Cuenca"
+					"es": "Cuenca",
+					"en": "Cuenca",
+					"ru": "Куэнка"
 				},
 				"id": "007-003"
 			},
 			{
 				"name": {
-					"es": "Guadalajara"
+					"es": "Guadalajara",
+					"en": "Guadalajara",
+					"ru": "Гвадалахара"
 				},
 				"id": "007-004"
 			},
 			{
 				"name": {
-					"es": "Toledo"
+					"es": "Toledo",
+					"en": "Toledo",
+					"ru": "Толедо"
 				},
 				"id": "007-005"
 			}
@@ -192,60 +248,80 @@ var COMMUNITIES = [
 	{
 		"id": "008",
 		"name": {
-			"es": "Castilla y León"
+			"es": "Castilla y León",
+			"en": "Castile and León",
+			"ru": "Кастилья и Леон"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Ávila"
+					"es": "Ávila",
+					"en": "Ávila",
+					"ru": "Авила"
 				},
 				"id": "008-001"
 			},
 			{
 				"name": {
-					"es": "Burgos"
+					"es": "Burgos",
+					"en": "Burgos",
+					"ru": "Бургос"
 				},
 				"id": "008-002"
 			},
 			{
 				"name": {
-					"es": "León"
+					"es": "León",
+					"en": "León",
+					"ru": "Леон"
 				},
 				"id": "008-003"
 			},
 			{
 				"name": {
-					"es": "Palencia"
+					"es": "Palencia",
+					"en": "Palencia",
+					"ru": "Паленсия"
 				},
 				"id": "008-004"
 			},
 			{
 				"name": {
-					"es": "Salamanca"
+					"es": "Salamanca",
+					"en": "Salamanca",
+					"ru": "Саламанка"
 				},
 				"id": "008-005"
 			},
 			{
 				"name": {
-					"es": "Segovia"
+					"es": "Segovia",
+					"en": "Segovia",
+					"ru": "Сеговия"
 				},
 				"id": "008-006"
 			},
 			{
 				"name": {
-					"es": "Soria"
+					"es": "Soria",
+					"en": "Soria",
+					"ru": "Сория"
 				},
 				"id": "008-007"
 			},
 			{
 				"name": {
-					"es": "Valladolid"
+					"es": "Valladolid",
+					"en": "Valladolid",
+					"ru": "Вальядолид"
 				},
 				"id": "008-008"
 			},
 			{
 				"name": {
-					"es": "Zamora"
+					"es": "Zamora",
+					"en": "Zamora",
+					"ru": "Замора"
 				},
 				"id": "008-009"
 			}
@@ -254,30 +330,40 @@ var COMMUNITIES = [
 	{
 		"id": "009",
 		"name": {
-			"es": "Cataluña"
+			"es": "Cataluña",
+			"en": "Catalonia",
+			"ru": "Каталония"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Barcelona"
+					"es": "Barcelona",
+					"en": "Barcelona",
+					"ru": "Барселона"
 				},
 				"id": "009-001"
 			},
 			{
 				"name": {
-					"es": "Gerona"
+					"es": "Gerona",
+					"en": "Gerona",
+					"ru": "Жирона"
 				},
 				"id": "009-002"
 			},
 			{
 				"name": {
-					"es": "Lérida"
+					"es": "Lérida",
+					"en": "Lérida",
+					"ru": "Лерида"
 				},
 				"id": "009-003"
 			},
 			{
 				"name": {
-					"es": "Tarragona"
+					"es": "Tarragona",
+					"en": "Tarragona",
+					"ru": "Тарагона"
 				},
 				"id": "009-004"
 			}
@@ -286,24 +372,32 @@ var COMMUNITIES = [
 	{
 		"id": "010",
 		"name": {
-			"es": "Comunidad Valenciana"
+			"es": "Comunidad Valenciana",
+			"en": "Valencian Community",
+			"ru": "Валенсийское сообщество"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Alicante"
+					"es": "Alicante",
+					"en": "Alicante",
+					"ru": "Аликанте"
 				},
 				"id": "010-001"
 			},
 			{
 				"name": {
-					"es": "Castellón"
+					"es": "Castellón",
+					"en": "Castellón",
+					"ru": "Кастельон"
 				},
 				"id": "010-002"
 			},
 			{
 				"name": {
-					"es": "Valencia"
+					"es": "Valencia",
+					"en": "Valencia",
+					"ru": "Валенсия"
 				},
 				"id": "010-003"
 			}
@@ -312,18 +406,24 @@ var COMMUNITIES = [
 	{
 		"id": "011",
 		"name": {
-			"es": "Extremadura"
+			"es": "Extremadura",
+			"en": "Extremadura",
+			"ru": "Экстремадура"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Badajoz"
+					"es": "Badajoz",
+					"en": "Badajoz",
+					"ru": "Бадахос"
 				},
 				"id": "011-001"
 			},
 			{
 				"name": {
-					"es": "Cáceres"
+					"es": "Cáceres",
+					"en": "Cáceres",
+					"ru": "Касэрес"
 				},
 				"id": "011-002"
 			}
@@ -332,30 +432,40 @@ var COMMUNITIES = [
 	{
 		"id": "012",
 		"name": {
-			"es": "Galicia"
+			"es": "Galicia",
+			"en": "Galicia",
+			"ru": "Галисия"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "La Coruña"
+					"es": "La Coruña",
+					"en": "La Coruña",
+					"ru": "Корунья"
 				},
 				"id": "012-001"
 			},
 			{
 				"name": {
-					"es": "Lugo"
+					"es": "Lugo",
+					"en": "Lugo",
+					"ru": "Луго"
 				},
 				"id": "012-002"
 			},
 			{
 				"name": {
-					"es": "Orense"
+					"es": "Orense",
+					"en": "Orense",
+					"ru": "Орэнсе"
 				},
 				"id": "012-003"
 			},
 			{
 				"name": {
-					"es": "Pontevedra"
+					"es": "Pontevedra",
+					"en": "Pontevedra",
+					"ru": "Понтеведра"
 				},
 				"id": "012-004"
 			}
@@ -364,12 +474,16 @@ var COMMUNITIES = [
 	{
 		"id": "013",
 		"name": {
-			"es": "La Rioja"
+			"es": "La Rioja",
+			"en": "La Rioja",
+			"ru": "Риоха"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "La Rioja"
+					"es": "La Rioja",
+					"en": "La Rioja",
+					"ru": "Риоха"
 				},
 				"id": "013-001"
 			}
@@ -378,12 +492,16 @@ var COMMUNITIES = [
 	{
 		"id": "014",
 		"name": {
-			"es": "Comunidad de Madrid"
+			"es": "Comunidad de Madrid",
+			"en": "Community of Madrid",
+			"ru": "Мадрид"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Madrid"
+					"es": "Madrid",
+					"en": "Community of Madrid",
+					"ru": "Мадрид"
 				},
 				"id": "014-001"
 			}
@@ -392,12 +510,16 @@ var COMMUNITIES = [
 	{
 		"id": "015",
 		"name": {
-			"es": "Región de Murcia"
+			"es": "Región de Murcia",
+			"en": "Region of Murcia",
+			"ru": "Мурсия"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Región de Murcia"
+					"es": "Región de Murcia",
+					"en": "Murcia",
+					"ru": "Мурсия"
 				},
 				"id": "015-001"
 			}
@@ -406,12 +528,16 @@ var COMMUNITIES = [
 	{
 		"id": "016",
 		"name": {
-			"es": "Comunidad Foral de Navarra"
+			"es": "Comunidad Foral de Navarra",
+			"en": "Navarre",
+			"ru": "Наварра"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Navarra"
+					"es": "Navarra",
+					"en": "Navarre",
+					"ru": "Наварра"
 				},
 				"id": "016-001"
 			}
@@ -420,24 +546,32 @@ var COMMUNITIES = [
 	{
 		"id": "017",
 		"name": {
-			"es": "País Vasco"
+			"es": "País Vasco",
+			"en": "Basque Country",
+			"ru": "Страна Басков"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Álava"
+					"es": "Álava",
+					"en": "Álava",
+					"ru": "Алава"
 				},
 				"id": "017-001"
 			},
 			{
 				"name": {
-					"es": "Guipúzcoa"
+					"es": "Guipúzcoa",
+					"en": "Guipúzcoa",
+					"ru": "Гипускоа"
 				},
 				"id": "017-002"
 			},
 			{
 				"name": {
-					"es": "Vizcaya"
+					"es": "Vizcaya",
+					"en": "Vizcaya",
+					"ru": "Бискайя"
 				},
 				"id": "017-003"
 			}
@@ -446,12 +580,16 @@ var COMMUNITIES = [
 	{
 		"id": "018",
 		"name": {
-			"es": "Ceuta"
+			"es": "Ceuta",
+			"en": "Ceuta",
+			"ru": "Сеута"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Ceuta"
+					"es": "Ceuta",
+					"en": "Ceuta",
+					"ru": "Сеута"
 				},
 				"id": "018-001"
 			}
@@ -460,12 +598,16 @@ var COMMUNITIES = [
 	{
 		"id": "019",
 		"name": {
-			"es": "Melilla"
+			"es": "Melilla",
+			"en": "Melilla",
+			"ru": "Мелийя"
 		},
 		"provinces": [
 			{
 				"name": {
-					"es": "Melilla"
+					"es": "Melilla",
+					"en": "Melilla",
+					"ru": "Мелийя"
 				},
 				"id": "019-001"
 			}
