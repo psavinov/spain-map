@@ -640,21 +640,22 @@ SpainMapPlugin = function (
 ) {
     this.id = id;
 
-	if (typeof(click) === 'function') {
+	if (typeof(click) !== 'function') {
 		console.warn('Click event handler must be a function');
-
+	} else {
 		this.onClick = click;
 	}
 
-	if (typeof(hover) === 'function') {
+	if (typeof(hover) !== 'function') {
 		console.warn('Hover event handler must be a function');
-
+	} else {
 		this.onHover = hover;
 	}
 	
-	if (typeof(render) === 'function') {
-		console.warn('Render event handler must be a function');
-
+	if (typeof(render) !== 'function') {
+		console.warn('Render event handler must be a function')
+		
+	} else {
 		this.onRender = render;
 	}
 };
